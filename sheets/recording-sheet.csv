@@ -1,0 +1,24 @@
+Cluster,,Hosts,,NIC / driver / firmware,,Edge form factor,
+Test,Phase,Date / time,Gbps,Mpps (64 B),Loss %,p50 / p99 us,vmk net CPU %,pNIC drops,Notes
+1,Before,,,,,,,n/a,
+1,After,,,,,,,n/a,
+2,Before,,,,,,,,
+2,After,,,,,,,,
+3,Before,,,,,,,,
+3,After,,,,,,,,
+4,Before,,,,,,,,5202 blocked? Y/N
+4,After,,,,,,,,5202 blocked? Y/N
+5,Before,,,,,,,,Edge datapath CPU %
+5,After,,,,,,,,Edge datapath CPU %
+6,Before,,aggregate,,,,,,flow spread per Edge %
+6,After,,aggregate,,,,,,flow spread per Edge %
+7,Before,,,,,,,,NAT hits
+7,After,,,,,,,,NAT hits
+8,Before,,,,,,,,GFW hits; 5202 blocked? Y/N
+8,After,,,,,,,,GFW hits; 5202 blocked? Y/N
+9,Before,,,,,,,,
+9,After,,,,,,,,
+10,Before,,,,,,,,Edge host net CPU %
+10,After,,,,,,,,Edge host net CPU %
+11,Before,,n/a,n/a,UDP lost,n/a,n/a,n/a,outage s; BFD/BGP times
+11,After,,n/a,n/a,UDP lost,n/a,n/a,n/a,outage s; BFD/BGP times
